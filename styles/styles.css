@@ -1,0 +1,35 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+/*header-styles*/
+.header {
+display: flex;
+flex-direction: reverse;
+}
+.icon { 
+    padding-left: 215px;
+    color: #2196F3;
+ }
+.icon-color {
+    color: black;
+}
+.studio {
+    margin-top: 0px;
+    padding-left: 93px;
+}
+.portfolio {
+color: black; 
+padding-left: 50px;
+}
+.contacts {
+    color: black; 
+    padding-left: 50px;
+}
+.mail {
+    color: black; 
+    padding-left: 330px;
+}
+.phone {
+    color: black; 
+    padding-left: 50px;
+}
