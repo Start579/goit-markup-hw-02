@@ -64,7 +64,6 @@ color: var(--accent-color);
     color: var(--accent-color);
 }
 .contact-adress {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -105,7 +104,6 @@ color: var(--accent-color);
     color: #212121;
 }
 .section {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -130,7 +128,6 @@ color: var(--accent-color);
 color: #212121;
 }
 .command-profession {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -165,7 +162,6 @@ color: #212121;
     color: #212121;
 }
 .menu-suptitle {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
