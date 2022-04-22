@@ -1,65 +1,99 @@
 <!DOCTYPE html>
 <html lang="ru">
+    <!--сайт на русском-->
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../goit-markup-hw-01/styles/styles.css">
-    <title>Портфолио</title>
-   </head>
-<body>  
-<!--header-->
-<header>
-  <a href="logo"><span class="web">Web</span><span class="studio">Studio</span></a>
-  <nav>        
-    <ul class="hed">        
-    <li> <a href="./studio/index.html">Студия</a></li>
-    <li> <a href="./porfolio/index.html">Портфолио</a></li>
-    <li> <a href="#contacts">Контакты</a></li>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Веб Студия</title>
+
+<body>
+    <!--header-->
+    <header>
+        <a class="link" href="link"><span class="web">Web</span><span class="studio">Studio</span></a>
+        <nav class="navigation">        
+            <ul class="menu">        
+                <li class="menu-item"> 
+                    <a class="menu-link link" href="./studio/index.html" class="link">Студия</a></li>
+                <li class="menu-item"> 
+                    <a class="menu-link link" href="./portfolio.html"class="link">Портфолио</a></li>
+                <li class="menu-item"> 
+                    <a class="menu-link link" href="./contacts.html"class="link">Контакты</a></li>
+            </ul>
+      </nav> 
+      <ul class="menu">
+      <li><a class="contact-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+      <li><a class="contact-phone link" href="tel:+380961111111">+38 096 111 11 11</a></li>
     </ul>
-  </nav> 
-  <ul>
-  <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-  <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-</ul>
-</header>
-</body>
+    </header>
+<section class="hero">
+    <!--hero-->
+        <h1 class="hero-header">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+        <button class="order-btn" type="button">Заказать услугу</button>
+</section>
 <section>
-<ul>
-  <li><button>Все</button></li>
-  <li><button>Веб-сайты</button></li>
-  <li><button>Приложения</button></li>
-  <li><button>Дизайн</button></li>
-  <li><button>Маркетинг</button></li>
+    <!--description-->
+       <ul class="menu">
+        <li>
+            <h3 class="description">Пунктуальность</h3>
+        <p class="section">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+        </li>
+        <li>
+            <h3 class="description">Планирование</h3>
+        <p class="section">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+    </li>
+    <li>
+        <h3 class="description">Современные технологии</h3>
+        <p class="section">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+    </li>
+</ul>    
+</section>
+<section>
+    <!--what we doing-->
+    <h2 class="portfolio">Чем мы занимаемся</h2>
+    <ul class="menu">
+    <li><img src="./images/img-1.jpg"  alt="робота з комп'ютером" width="370" height="295"></li>
+    <li><img src="./images/img-2.jpg" alt="робота з комп'ютером" width="370" height="295"></li>
+    <li><img src="./images/img-3.jpg" alt="робота з комп'ютером" width="370" height="295">     </li>
 </ul>
 </section>
 <section>
-  <li><img src="./images/portfolio/img.jpg" alt="Технокряк"></li>
-  <li><img src="./images/portfolio/img-1.jpg" alt="Постер New Orlean vs Golden Star"></li>
-  <li><img src="./images/portfolio/img-2.jpg" alt="Ресторан Seafood"></li>
-  <li><img src="./images/portfolio/img-3.jpg" alt="Проект Prime"></li>
-  <li><img src="./images/portfolio/img-4.jpg" alt="Проект Boxes"></li>
-  <li><img src="./images/portfolio/img-5.jpg" alt="Inspiration has no Borders"></li>
-  <li><img src="./images/portfolio/img-6.jpg" alt="Издание Limited Edition"></li>
-  <li><img src="./images/portfolio/img-7.jpg" alt="Проект LAB"></li>
-  <li><img src="./images/portfolio/img-8.jpg" alt="Growing Business"></li>
+    <!--our command-->
+    <h2 class="portfolio">Наша команда</h2>
+<ul class="menu">
+    <li>
+    <img src="./images/id.jpg" alt="Игорь Демьяненко" width="270" height="260">
+<h3 class="portfolio-command">Игорь Демьяненко</h3>
+<p class="command-profession"lang="en">Product Designer</p></li>
+<li><img src="./images/or.jpg" alt="Ольга Репина" width="270" height="260">
+    <h3 class="portfolio-command">Ольга Репина</h3>
+<p class="command-profession"lang="en">Frontend Developer</p></li>
+<li><img src="./images/nt.jpg" alt="Николай Тарасов" width="270" height="260">
+    <h3 class="portfolio-command">Николай Тарасов</h3>
+<p class="command-profession"lang="en">Marketing</p></li>
+<li><img src="./images/me.jpg" alt="Михаил Ермаков" width="270" height="260">
+    <h3 class="portfolio-command">Михаил Ермаков</h3>
+<p class="command-profession"lang="en">UI Designer</p></li>
+</ul>
 </section>
+ <!--footer-->
 <footer>
-  <!--footer-->
-  <a href="logo">WebStudio</a>
+  <a class="link" href="logo"><span class="web">Web</span><span class="studio_footer">Studio</span></a>
 <address>
-  <ul> 
-      <li><a href="https://goo.gl/maps/QuRmtKjdtKWpMWAw7"
-      target="_blank" 
-       rel="noopener noreferrer"
-      >г. Киев, пр-т Леси Украинки, 26</a></li>
-      <li><a href="mailto:info@example.com">info@example.com</a></li>
-      <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
-  </ul>
+    <ul class="menu"> 
+        <li><a class="contact-adress link"href="https://goo.gl/maps/QuRmtKjdtKWpMWAw7"
+        target="_blank" 
+         rel="noopener noreferrer"
+        >г. Киев, пр-т Леси Украинки, 26</a></li>
+        <li><a class="contact-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="contact-phone link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+    </ul>
 </address>
 </footer>
 </body>
+</head>
 </html>
