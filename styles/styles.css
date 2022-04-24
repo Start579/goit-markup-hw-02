@@ -7,6 +7,7 @@
   --accent-font-weight: 700;
 }
 /* ===============/HEADER/=============== */
+
 .link {
   text-decoration: none;
 }
@@ -20,9 +21,7 @@
   background-color: var(--accent-bacground-color);
 }
 /* ===============/LOGO/================== */
-/* .language {
-    lang="en"
-} */
+
 .web {
   color: black;
   font-weight: var(--accent-font-weight);
@@ -36,7 +35,7 @@
   font-family: raleway;
   font-size: 26px;
   margin-top: 0px;
-  padding-left: 0px;
+
 }
 
 /* ===============/MENU/================== */
