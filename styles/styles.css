@@ -29,7 +29,6 @@
   font-family: raleway;
   font-size: 26px;
   margin-top: 32px;
-  margin-left: 215px;
 }
 .logo {
   color: var(--accent-color);
@@ -41,9 +40,6 @@
 }
 
 /* ===============/MENU/================== */
-.design {
-  display: flex;
-}
 .menu-link {
   font-family: var(--accent-font);
   font-weight: 500;
