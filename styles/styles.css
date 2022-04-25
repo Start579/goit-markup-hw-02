@@ -5,6 +5,8 @@
   --accent-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --accent-font-weight: 700;
+  --second-font-weight: 500;
+  --accent-font-color: #757575;
 }
 /* ===============/HEADER/=============== */
 
@@ -23,19 +25,18 @@
 /* ===============/LOGO/================== */
 
 .web {
-  color: black;
+  color: var(--accent-color);
   font-weight: var(--accent-font-weight);
   font-family: raleway;
   font-size: 26px;
   margin-top: 32px;
 }
 .logo {
-  color: var(--accent-color);
+  color: var(--accent-secondary-color);
   font-weight: var(--accent-font-weight);
   font-family: raleway;
   font-size: 26px;
   margin-top: 0px;
-
 }
 
 /* ===============/MENU/================== */
@@ -61,7 +62,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--accent-font-color);
 }
 .contact-mail:hover,
 .contact-phone:focus,
@@ -82,6 +83,9 @@
 /* =============/BODY-HERO/================ */
 .hero {
   background-color: var(--accent-bacground-color);
+}
+.filter {
+  list-style: none;
 }
 .hero-header {
   font-family: var(--accent-font);
@@ -122,7 +126,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--accent-font-color);
 }
 /* =============/PORTFOLIO/================ */
 .portfolio-btn-all {
@@ -186,23 +190,39 @@
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--accent-font-color);
 }
 /* ==========/FOOTER-CONTACTS/============= */
-
+.contact-mail-footer,
+.contact-phone-footer
+{
+  font-family: var(--accent-font);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-font-color);
+}
+.contact-mail-footer:hover,
+.contact-phone-footer:focus,
+.contact-mail-footer:focus,
+.contact-phone-footer:hover
+{
+  color: var(--accent-color);
+}
 /* ============/FOOTER-LOGO/=============== */
 .footer {
   background-color: var(--accent-bacground-color);
 }
-.studio_footer {
+.studio-footer {
   color: white;
   font-weight: var(--accent-font-weight);
   font-size: 26px;
   margin-top: 0px;
   padding-left: 0px;
 }
-/* .menu-img {} */
-.menu-item {
+/* .filter-img {} */
+.filter-item {
   font-family: var(--accent-font);
   font-weight: var(--accent-font-weight);
   font-size: 18px;
@@ -210,7 +230,7 @@
   letter-spacing: 0.06em;
   color: var(--accent-bacground-color);
 }
-.menu-suptitle {
+.filter-suptitle {
   font-family: var(--accent-font);
   font-size: 16px;
   line-height: 1.87;
