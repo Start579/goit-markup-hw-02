@@ -18,6 +18,7 @@
 }
 .menu {
   list-style: none;
+  display: inline;
 }
 .body {
   font-family: var(--accent-font);
@@ -86,6 +87,7 @@
 /* =============/BODY-HERO/================ */
 .hero {
   background-color: var(--accent-bacground-color);
+  display: block;
 }
 .filter {
   list-style: none;
@@ -203,7 +205,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--accent-font-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 .contact-mail-footer:hover,
 .contact-phone-footer:focus,
@@ -215,10 +217,11 @@
 .footer {
   background-color: var(--accent-bacground-color);
 }
-.studio-footer {
+.link-logo {
   color: var(--accent-color-white);
   font-weight: var(--accent-font-weight);
   font-size: 26px;
+  font-family: raleway;
   margin-top: 0px;
   padding-left: 0px;
 }
